@@ -1,0 +1,58 @@
+body {
+    background-color:#EFFFFA;
+}
+
+.temperature-container {
+  width: 250px;
+  height: 340px;
+  padding-top: 20px;
+  background-color: #428AA3;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
+
+.button {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.button:hover {
+  background-color: #97AFB9;
+  transition:  0.5s;
+}
+
+.temperature-display {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  color: white;
+  margin-left: 25px;
+  font-size: 40px;
+  font-weight: bold;
+  border: 2px solid white;
+  margin: auto;
+  transition: background 1.5s
+}
+
+.temperature-display p {
+  margin-top: 70px;
+}
+
+.hot {
+  background-color: #FF583D;
+}
+
+.cold {
+  background-color: #00A5E5;
+}
+
+.divider{
+  width:20px;
+  height:auto;
+  display:inline-block;
+}
